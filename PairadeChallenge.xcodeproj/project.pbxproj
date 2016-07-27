@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1379DA6CFB837EC1E7C90437 /* libPods-PairadeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19ABD31C7C2836437F1852A0 /* libPods-PairadeChallenge.a */; };
+		4ADCA3A61D47B642003C7BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCA3A51D47B642003C7BA4 /* main.m */; };
+		4ADCA3A91D47B642003C7BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCA3A81D47B642003C7BA4 /* AppDelegate.m */; };
+		4ADCA3AC1D47B642003C7BA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCA3AB1D47B642003C7BA4 /* ViewController.m */; };
+		4ADCA3AF1D47B642003C7BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADCA3AD1D47B642003C7BA4 /* Main.storyboard */; };
+		4ADCA3B11D47B642003C7BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADCA3B01D47B642003C7BA4 /* Assets.xcassets */; };
+		4ADCA3B41D47B642003C7BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADCA3B21D47B642003C7BA4 /* LaunchScreen.storyboard */; };
+		4ADCA3BD1D47BB36003C7BA4 /* Mode1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCA3BC1D47BB36003C7BA4 /* Mode1ViewController.m */; };
+		4ADCA3C01D47BB48003C7BA4 /* Mode2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCA3BF1D47BB48003C7BA4 /* Mode2ViewController.m */; };
+		4ADCA3C31D47DBF8003C7BA4 /* Mode1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCA3C21D47DBF8003C7BA4 /* Mode1Cell.m */; };
+		4AFD77C41D48ED62003A8E4F /* Mode1FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD77C31D48ED62003A8E4F /* Mode1FlowLayout.m */; };
+		4AFD77C71D48F677003A8E4F /* Mode2Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD77C61D48F677003A8E4F /* Mode2Layout.m */; };
+		4AFD77C91D490033003A8E4F /* Mode2Layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFD77C81D490033003A8E4F /* Mode2Layout.xib */; };
+		4AFD77CC1D4910FC003A8E4F /* Mode2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD77CB1D4910FC003A8E4F /* Mode2Cell.m */; };
+		4AFD77CE1D4912AE003A8E4F /* Mode2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFD77CD1D4912AE003A8E4F /* Mode2Cell.xib */; };
+		4AFD77D01D4918EC003A8E4F /* Pairade_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFD77CF1D4918EC003A8E4F /* Pairade_Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19ABD31C7C2836437F1852A0 /* libPods-PairadeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PairadeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354CDBCA73EA66DD07742AAE /* Pods-PairadeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PairadeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-PairadeChallenge/Pods-PairadeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		4ADCA3A11D47B641003C7BA4 /* PairadeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairadeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADCA3A51D47B642003C7BA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ADCA3A71D47B642003C7BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ADCA3A81D47B642003C7BA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ADCA3AA1D47B642003C7BA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4ADCA3AB1D47B642003C7BA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4ADCA3AE1D47B642003C7BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ADCA3B01D47B642003C7BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ADCA3B31D47B642003C7BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ADCA3B51D47B642003C7BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADCA3BB1D47BB36003C7BA4 /* Mode1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode1ViewController.h; sourceTree = "<group>"; };
+		4ADCA3BC1D47BB36003C7BA4 /* Mode1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode1ViewController.m; sourceTree = "<group>"; };
+		4ADCA3BE1D47BB48003C7BA4 /* Mode2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode2ViewController.h; sourceTree = "<group>"; };
+		4ADCA3BF1D47BB48003C7BA4 /* Mode2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode2ViewController.m; sourceTree = "<group>"; };
+		4ADCA3C11D47DBF8003C7BA4 /* Mode1Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode1Cell.h; sourceTree = "<group>"; };
+		4ADCA3C21D47DBF8003C7BA4 /* Mode1Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode1Cell.m; sourceTree = "<group>"; };
+		4AFD77C21D48ED62003A8E4F /* Mode1FlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode1FlowLayout.h; sourceTree = "<group>"; };
+		4AFD77C31D48ED62003A8E4F /* Mode1FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode1FlowLayout.m; sourceTree = "<group>"; };
+		4AFD77C51D48F677003A8E4F /* Mode2Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode2Layout.h; sourceTree = "<group>"; };
+		4AFD77C61D48F677003A8E4F /* Mode2Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode2Layout.m; sourceTree = "<group>"; };
+		4AFD77C81D490033003A8E4F /* Mode2Layout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mode2Layout.xib; sourceTree = "<group>"; };
+		4AFD77CA1D4910FC003A8E4F /* Mode2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode2Cell.h; sourceTree = "<group>"; };
+		4AFD77CB1D4910FC003A8E4F /* Mode2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode2Cell.m; sourceTree = "<group>"; };
+		4AFD77CD1D4912AE003A8E4F /* Mode2Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mode2Cell.xib; sourceTree = "<group>"; };
+		4AFD77CF1D4918EC003A8E4F /* Pairade_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pairade_Logo.png; sourceTree = "<group>"; };
+		694AFB627C28DA2E253BF472 /* Pods-PairadeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PairadeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PairadeChallenge/Pods-PairadeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADCA39E1D47B641003C7BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1379DA6CFB837EC1E7C90437 /* libPods-PairadeChallenge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242B575C446D458F185455B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694AFB627C28DA2E253BF472 /* Pods-PairadeChallenge.debug.xcconfig */,
+				354CDBCA73EA66DD07742AAE /* Pods-PairadeChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4ADCA3981D47B641003C7BA4 = {
+			isa = PBXGroup;
+			children = (
+				4ADCA3A31D47B642003C7BA4 /* PairadeChallenge */,
+				4ADCA3A21D47B641003C7BA4 /* Products */,
+				242B575C446D458F185455B0 /* Pods */,
+				616008274C14249FF61B096F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADCA3A21D47B641003C7BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADCA3A11D47B641003C7BA4 /* PairadeChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADCA3A31D47B642003C7BA4 /* PairadeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				4ADCA3A71D47B642003C7BA4 /* AppDelegate.h */,
+				4ADCA3A81D47B642003C7BA4 /* AppDelegate.m */,
+				4AFD77D31D494167003A8E4F /* View */,
+				4ADCA3AD1D47B642003C7BA4 /* Main.storyboard */,
+				4ADCA3A41D47B642003C7BA4 /* Supporting Files */,
+			);
+			path = PairadeChallenge;
+			sourceTree = "<group>";
+		};
+		4ADCA3A41D47B642003C7BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ADCA3B01D47B642003C7BA4 /* Assets.xcassets */,
+				4ADCA3B51D47B642003C7BA4 /* Info.plist */,
+				4ADCA3B21D47B642003C7BA4 /* LaunchScreen.storyboard */,
+				4ADCA3A51D47B642003C7BA4 /* main.m */,
+				4AFD77CF1D4918EC003A8E4F /* Pairade_Logo.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AFD77D11D494146003A8E4F /* Mode 1 */ = {
+			isa = PBXGroup;
+			children = (
+				4ADCA3BB1D47BB36003C7BA4 /* Mode1ViewController.h */,
+				4ADCA3BC1D47BB36003C7BA4 /* Mode1ViewController.m */,
+				4ADCA3C11D47DBF8003C7BA4 /* Mode1Cell.h */,
+				4ADCA3C21D47DBF8003C7BA4 /* Mode1Cell.m */,
+				4AFD77C21D48ED62003A8E4F /* Mode1FlowLayout.h */,
+				4AFD77C31D48ED62003A8E4F /* Mode1FlowLayout.m */,
+			);
+			name = "Mode 1";
+			sourceTree = "<group>";
+		};
+		4AFD77D21D494154003A8E4F /* Mode 2 */ = {
+			isa = PBXGroup;
+			children = (
+				4ADCA3BE1D47BB48003C7BA4 /* Mode2ViewController.h */,
+				4ADCA3BF1D47BB48003C7BA4 /* Mode2ViewController.m */,
+				4AFD77C51D48F677003A8E4F /* Mode2Layout.h */,
+				4AFD77C61D48F677003A8E4F /* Mode2Layout.m */,
+				4AFD77C81D490033003A8E4F /* Mode2Layout.xib */,
+				4AFD77CA1D4910FC003A8E4F /* Mode2Cell.h */,
+				4AFD77CB1D4910FC003A8E4F /* Mode2Cell.m */,
+				4AFD77CD1D4912AE003A8E4F /* Mode2Cell.xib */,
+			);
+			name = "Mode 2";
+			sourceTree = "<group>";
+		};
+		4AFD77D31D494167003A8E4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4ADCA3AA1D47B642003C7BA4 /* ViewController.h */,
+				4ADCA3AB1D47B642003C7BA4 /* ViewController.m */,
+				4AFD77D11D494146003A8E4F /* Mode 1 */,
+				4AFD77D21D494154003A8E4F /* Mode 2 */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		616008274C14249FF61B096F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19ABD31C7C2836437F1852A0 /* libPods-PairadeChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADCA3A01D47B641003C7BA4 /* PairadeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADCA3B81D47B642003C7BA4 /* Build configuration list for PBXNativeTarget "PairadeChallenge" */;
+			buildPhases = (
+				D86726237E1F5FA04524F58B /* [CP] Check Pods Manifest.lock */,
+				4ADCA39D1D47B641003C7BA4 /* Sources */,
+				4ADCA39E1D47B641003C7BA4 /* Frameworks */,
+				4ADCA39F1D47B641003C7BA4 /* Resources */,
+				24D06E18E71D5C0A61A03D5C /* [CP] Embed Pods Frameworks */,
+				A484D4F292BE2106129C995D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PairadeChallenge;
+			productName = PairadeChallenge;
+			productReference = 4ADCA3A11D47B641003C7BA4 /* PairadeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADCA3991D47B641003C7BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = elementC;
+				TargetAttributes = {
+					4ADCA3A01D47B641003C7BA4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4ADCA39C1D47B641003C7BA4 /* Build configuration list for PBXProject "PairadeChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADCA3981D47B641003C7BA4;
+			productRefGroup = 4ADCA3A21D47B641003C7BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADCA3A01D47B641003C7BA4 /* PairadeChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADCA39F1D47B641003C7BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADCA3B41D47B642003C7BA4 /* LaunchScreen.storyboard in Resources */,
+				4AFD77D01D4918EC003A8E4F /* Pairade_Logo.png in Resources */,
+				4AFD77C91D490033003A8E4F /* Mode2Layout.xib in Resources */,
+				4AFD77CE1D4912AE003A8E4F /* Mode2Cell.xib in Resources */,
+				4ADCA3B11D47B642003C7BA4 /* Assets.xcassets in Resources */,
+				4ADCA3AF1D47B642003C7BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D06E18E71D5C0A61A03D5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PairadeChallenge/Pods-PairadeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A484D4F292BE2106129C995D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PairadeChallenge/Pods-PairadeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D86726237E1F5FA04524F58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADCA39D1D47B641003C7BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFD77C41D48ED62003A8E4F /* Mode1FlowLayout.m in Sources */,
+				4ADCA3C01D47BB48003C7BA4 /* Mode2ViewController.m in Sources */,
+				4ADCA3AC1D47B642003C7BA4 /* ViewController.m in Sources */,
+				4ADCA3C31D47DBF8003C7BA4 /* Mode1Cell.m in Sources */,
+				4ADCA3BD1D47BB36003C7BA4 /* Mode1ViewController.m in Sources */,
+				4AFD77CC1D4910FC003A8E4F /* Mode2Cell.m in Sources */,
+				4AFD77C71D48F677003A8E4F /* Mode2Layout.m in Sources */,
+				4ADCA3A91D47B642003C7BA4 /* AppDelegate.m in Sources */,
+				4ADCA3A61D47B642003C7BA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ADCA3AD1D47B642003C7BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADCA3AE1D47B642003C7BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ADCA3B21D47B642003C7BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADCA3B31D47B642003C7BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ADCA3B61D47B642003C7BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ADCA3B71D47B642003C7BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ADCA3B91D47B642003C7BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694AFB627C28DA2E253BF472 /* Pods-PairadeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PairadeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elementC.PairadeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ADCA3BA1D47B642003C7BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354CDBCA73EA66DD07742AAE /* Pods-PairadeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PairadeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elementC.PairadeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADCA39C1D47B641003C7BA4 /* Build configuration list for PBXProject "PairadeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADCA3B61D47B642003C7BA4 /* Debug */,
+				4ADCA3B71D47B642003C7BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADCA3B81D47B642003C7BA4 /* Build configuration list for PBXNativeTarget "PairadeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADCA3B91D47B642003C7BA4 /* Debug */,
+				4ADCA3BA1D47B642003C7BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ADCA3991D47B641003C7BA4 /* Project object */;
+}
